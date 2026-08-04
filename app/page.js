@@ -4,7 +4,9 @@ import { site } from "@/lib/site";
 import OfferCard from "./components/OfferCard";
 import ComparisonTable from "./components/ComparisonTable";
 import JsonLd from "./components/JsonLd";
+import NewsCard from "./components/NewsCard";
 import { Faq } from "./components/ui";
+import { articles } from "@/lib/news";
 
 export const metadata = {
   title: "Best Online Poker Bonuses 2026 — US & Canada",
@@ -203,6 +205,24 @@ export default function HomePage() {
               that give Canadian players the most value.
             </p>
             <Link href="/canada/" className="btn btn-ghost btn-sm">Canada poker guide →</Link>
+          </div>
+        </div>
+      </section>
+
+      {/* LATEST NEWS */}
+      <section className="section">
+        <div className="container">
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: 12, marginBottom: 28 }}>
+            <div>
+              <span className="eyebrow">Fresh from the felt</span>
+              <h2 style={{ margin: 0 }}>Latest Poker News &amp; Bonus Updates</h2>
+            </div>
+            <Link href="/news/" className="btn btn-ghost btn-sm">View all news →</Link>
+          </div>
+          <div className="grid grid-3">
+            {articles.slice(0, 3).map((a) => (
+              <NewsCard key={a.slug} article={a} />
+            ))}
           </div>
         </div>
       </section>
