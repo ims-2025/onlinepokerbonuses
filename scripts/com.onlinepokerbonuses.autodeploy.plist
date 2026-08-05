@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.onlinepokerbonuses.autodeploy</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/cg/Documents/Claude/Projects/General Websites/onlinepokerbonuses/scripts/auto-deploy.sh</string>
+  </array>
+
+  <!-- Runs every day at 8:20 AM local time (after the in-app news task at 8:02). -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>8</integer>
+    <key>Minute</key>
+    <integer>20</integer>
+  </dict>
+
+  <!-- If the Mac was asleep/off at 8:20, run at the next wake. -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/cg/Documents/Claude/Projects/General Websites/onlinepokerbonuses/scripts/auto-deploy.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/cg/Documents/Claude/Projects/General Websites/onlinepokerbonuses/scripts/auto-deploy.err.log</string>
+</dict>
+</plist>
