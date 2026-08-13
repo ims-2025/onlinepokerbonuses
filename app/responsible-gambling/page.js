@@ -1,7 +1,7 @@
 import { Breadcrumbs } from "../components/ui";
 
 export const metadata = {
-  title: "Responsible Gambling — Play Safe & Get Support",
+  title: { absolute: "Responsible Gambling — Play Safe & Get Support" },
   description:
     "Responsible gambling resources for US and Canada players: how to set limits, recognise problem gambling, and where to get free, confidential help.",
   alternates: { canonical: "/responsible-gambling/" },

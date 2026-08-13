@@ -7,8 +7,8 @@ import { site } from "@/lib/site";
 export const metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Best Online Poker Bonuses 2026 — US & Canada | OnlinePokerBonuses.com",
-    template: "%s | OnlinePokerBonuses.com",
+    default: "Best Online Poker Bonuses 2026 — US & Canada",
+    template: "%s | OnlinePokerBonuses",
   },
   description: site.description,
   keywords: [

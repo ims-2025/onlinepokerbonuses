@@ -5,9 +5,9 @@ import JsonLd from "../components/JsonLd";
 import { Breadcrumbs } from "../components/ui";
 
 export const metadata = {
-  title: "Poker News & Bonus Updates 2026 — US & Canada",
+  title: { absolute: "Poker News & Bonus Updates 2026 — US & Canada" },
   description:
-    "The latest online poker news, bonus updates, tournament coverage and strategy for US and Canada players. Fresh analysis on Americas Cardroom, BetOnline, WPN, Chico and more.",
+    "The latest online poker news, bonus updates, tournament coverage and strategy for US & Canada players — fresh analysis every day.",
   alternates: { canonical: "/news/" },
 };
 

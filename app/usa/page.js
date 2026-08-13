@@ -6,9 +6,9 @@ import JsonLd from "../components/JsonLd";
 import { Breadcrumbs, Faq } from "../components/ui";
 
 export const metadata = {
-  title: "Best US Online Poker Bonuses 2026 — For American Players",
+  title: { absolute: "Best US Online Poker Bonuses 2026 (Top Rooms)" },
   description:
-    "The best online poker bonuses for US players in 2026. Offshore rooms that accept Americans, welcome offers up to $2,000, crypto banking and state-by-state legality explained.",
+    "The best online poker bonuses for US players in 2026 — offshore rooms that accept Americans, welcome offers up to $2,000 and fast crypto banking.",
   alternates: { canonical: "/usa/" },
 };
 

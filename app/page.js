@@ -9,9 +9,9 @@ import { Faq } from "./components/ui";
 import { articles } from "@/lib/news";
 
 export const metadata = {
-  title: "Best Online Poker Bonuses 2026 — US & Canada",
+  title: { absolute: "Best Online Poker Bonuses 2026 — US & Canada" },
   description:
-    "Compare the best online poker bonuses for 2026. Exclusive welcome offers up to $2,000, bonus codes and rakeback deals for US and Canadian players, ranked by real value.",
+    "Compare the best online poker bonuses for 2026 — welcome offers up to $2,000, bonus codes and rakeback for US & Canada players, ranked by value.",
   alternates: { canonical: "/" },
 };
 

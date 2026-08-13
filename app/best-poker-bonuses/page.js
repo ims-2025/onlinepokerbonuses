@@ -7,9 +7,9 @@ import JsonLd from "../components/JsonLd";
 import { Breadcrumbs, LogoMark, Rating } from "../components/ui";
 
 export const metadata = {
-  title: "Best Online Poker Bonuses 2026 — Ranked & Compared",
+  title: { absolute: "Best Online Poker Bonuses 2026 — Ranked & Compared" },
   description:
-    "The 5 best online poker bonuses for 2026, ranked by real value. Compare welcome matches up to $2,000, bonus codes, clearing terms and rakeback for US & Canada players.",
+    "The 5 best online poker bonuses for 2026, ranked by real value — compare welcome matches up to $2,000, bonus codes and rakeback for US & Canada.",
   alternates: { canonical: "/best-poker-bonuses/" },
 };
 

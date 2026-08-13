@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 import { Breadcrumbs } from "../components/ui";
 
 export const metadata = {
-  title: "About OnlinePokerBonuses.com — Independent Poker Bonus Reviews",
+  title: { absolute: "About Us — Independent Poker Bonus Reviews" },
   description:
     "How OnlinePokerBonuses.com reviews and ranks online poker bonuses for US and Canada players, our editorial standards, and how we make money.",
   alternates: { canonical: "/about/" },

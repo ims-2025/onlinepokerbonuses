@@ -4,9 +4,9 @@ import JsonLd from "../components/JsonLd";
 import { Breadcrumbs, Faq } from "../components/ui";
 
 export const metadata = {
-  title: "How to Claim an Online Poker Bonus — Step-by-Step Guide 2026",
+  title: { absolute: "How to Claim a Poker Bonus — Step-by-Step 2026" },
   description:
-    "A simple step-by-step guide to claiming an online poker welcome bonus: choosing a room, entering your bonus code, depositing, and clearing the bonus with rake.",
+    "A step-by-step guide to claiming an online poker welcome bonus: pick a room, enter your bonus code, deposit and clear the bonus with rake.",
   alternates: { canonical: "/how-to-claim/" },
 };
 

@@ -1,7 +1,11 @@
 /node_modules
 /.next
 /out
+/preview
 /preview-site
+/preview-fixed
+/preview-latest
+.wtest/
 .DS_Store
 *.log
 .env*

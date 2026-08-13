@@ -6,9 +6,9 @@ import JsonLd from "../components/JsonLd";
 import { Breadcrumbs, Faq } from "../components/ui";
 
 export const metadata = {
-  title: "Best Canada Online Poker Bonuses 2026 — For Canadian Players",
+  title: { absolute: "Best Canada Online Poker Bonuses 2026" },
   description:
-    "The best online poker bonuses for Canadian players in 2026. CAD-friendly rooms, welcome offers up to $2,000, fast crypto payouts and how online poker works across Canada.",
+    "The best online poker bonuses for Canadian players in 2026 — CAD-friendly rooms, welcome offers up to $2,000 and fast crypto payouts.",
   alternates: { canonical: "/canada/" },
 };
 

@@ -13,8 +13,8 @@ export function generateMetadata({ params }) {
   const op = getOperator(params.slug);
   if (!op) return {};
   return {
-    title: `${op.name} Review 2026 — ${op.bonusHeadline} Bonus${op.bonusCode ? ` (Code ${op.bonusCode})` : ""}`,
-    description: `${op.name} review for 2026: ${op.matchPercent}% up to ${usd(op.maxBonus)} welcome bonus, clearing terms, banking, pros and cons. Our verdict for US & Canada players.`,
+    title: { absolute: `${op.name} Review 2026 — ${op.bonusHeadline} Bonus` },
+    description: `${op.name} review: ${op.matchPercent}% up to ${usd(op.maxBonus)} welcome bonus, clearing terms, banking, pros, cons and our verdict for US & Canada.`,
     alternates: { canonical: `/reviews/${op.slug}/` },
   };
 }

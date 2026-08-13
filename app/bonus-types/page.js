@@ -3,9 +3,9 @@ import JsonLd from "../components/JsonLd";
 import { Breadcrumbs, Faq } from "../components/ui";
 
 export const metadata = {
-  title: "Types of Poker Bonuses Explained — Welcome, No Deposit & Rakeback",
+  title: { absolute: "Poker Bonus Types Explained — 2026 Guide" },
   description:
-    "A plain-English guide to every type of online poker bonus: welcome/first-deposit matches, no-deposit bonuses, rakeback, reload bonuses, freerolls and VIP rewards.",
+    "A plain-English guide to every online poker bonus type: welcome matches, no-deposit bonuses, rakeback, reloads, freerolls and VIP rewards.",
   alternates: { canonical: "/bonus-types/" },
 };
 
