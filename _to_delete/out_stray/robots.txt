@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /go/
+
+Host: https://www.onlinepokerbonuses.com
+Sitemap: https://www.onlinepokerbonuses.com/sitemap.xml
