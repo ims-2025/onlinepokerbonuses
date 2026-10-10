@@ -1,0 +1,7 @@
+for (const s of ["slow-playing-poker-strategy-when-to-trap-2026","is-online-poker-rigged-rng-bad-beats-2026","disconnect-protection-time-banks-online-poker-2026"]) {
+  const a=(await import("./"+s+".js")).default;
+  let w=0;const t=x=>{w+=x.split(/\s+/).length};
+  for(const b of a.body){ if(b.p)t(b.p); if(b.h2)t(b.h2); if(b.ul)b.ul.forEach(t);}
+  const links=a.body.map(b=>b.p||(b.ul||[]).join(" ")||"").join(" ").match(/\]\(\//g)?.length;
+  console.log(s,"words",w,"title",a.title.length,"excerpt",a.excerpt.length,"links",links);
+}
